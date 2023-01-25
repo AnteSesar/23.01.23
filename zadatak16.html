@@ -7,15 +7,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./zadatak14/card-style.css">
+    <link rel="stylesheet" href="./css/sidebar-style.css">
 </head>
 <body>
+    
     
     <header class="Header">
         <div class="header-line">
             <h1 class="full-width-header">Moja stranica sa vertikalnim tabovima</h1>
         </div>
     </header>
-    <div class="content">
+
+    <div class="menu-wrapper">
+
+        <input data-function="swipe" id="swipe" type="checkbox">
+        <label data-function="swipe" for="swipe">&#xf0c9</label>
+
+    <div class="sidebar">
         <section class="tabs-container">
             <label for="tab1">Priroda</label>
             <label for="tab2">Cvijeće</label>
@@ -25,6 +33,10 @@
             <label for="tab6">Šume</label>
             <label for="tab7">zad14</label>
         </section>
+    </div>
+
+    <div class="content">
+    
 
         <input name="tab" id="tab1" type="radio" checked>
         <section class="tab-content">
@@ -38,7 +50,7 @@
         <section class="tab-content">
             <h2>Cvijeće</h2>
             <p>Neki teks</p>
-            <img src="#" alt="Cvijeće">
+            <img src="./Slike/flowers.jpg" alt="Cvijeće">
             <p>Opis slike</p>
         </section>
 
@@ -46,7 +58,7 @@
         <section class="tab-content">
             <h2>Planine</h2>
             <p>Neki teks</p>
-            <img src="#" alt="Planine">
+            <img src="./Slike/planine.jpg" alt="Planine">
             <p>Opis slike</p>
         </section>
 
@@ -54,7 +66,7 @@
         <section class="tab-content">
             <h2>Zgrade</h2>
             <p>Neki teks</p>
-            <img src="#" alt="Zgrade">
+            <img src="./Slike/zgrade.jpg" alt="Zgrade">
             <p>Opis slike</p>
         </section>
 
@@ -62,7 +74,7 @@
         <section class="tab-content">
             <h2>Ceste</h2>
             <p>Neki teks</p>
-            <img src="#" alt="Ceste">
+            <img src="./Slike/ceste.webp" alt="Ceste">
             <p>Opis slike</p>
         </section>
 
@@ -70,7 +82,7 @@
         <section class="tab-content">
             <h2>Šume</h2>
             <p>Neki teks</p>
-            <img src="#" alt="Šume">
+            <img src="./Slike/forest.jpg" alt="Šume">
             <p>Opis slike</p>
         </section>
 
@@ -124,5 +136,7 @@
         </section>
 
     </div>
+</div>
+
 </body>
 </html>
