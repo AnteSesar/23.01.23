@@ -45,9 +45,12 @@ input[data-function*="swipe"]:checked ~ label[data-function*="swipe"]{
 input[data-function*="swipe"]:checked ~ .content{
     transform: translate3d(245px, 0px, 0px);
 }
+input[data-function*="swipe"]:checked ~ .sidebar{
+    transform: translate3d(0px, 0px, 0px);
+}
 input[data-function*="swipe"]:checked ~ .sidebar .tabs-container{
     width: 100%;
 }
 .tab-content{
-    margin-left: 60px;
+    margin-left: 70px;
 }
